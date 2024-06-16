@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+    background: white;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 70px;
+}
+
+ul {
+    list-style: none;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-flex;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 1px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
