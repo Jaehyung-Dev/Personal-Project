@@ -8,12 +8,10 @@ html {
 body {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
-header {
-    
-}
-
+/* hearder */
 #header_div {
     width: 100%;
     height: 20%;
@@ -53,40 +51,85 @@ a:hover {
     margin-top: -1vw;
 }
 
-
-main {
-
-}
-
+/* main */
 #main_div {
     width: 100%;
-    height: 80%;
-    margin-top: 23vh;
+    /* height: 70%; */
+    margin-top: 21vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.logo {
-    text-align: center;
+
+.searchbox {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-footer {
-
+#searchbox-text{
+    padding: 0;
+    margin: 0;
+    border: solid 1px black;
+    outline: none;
+    resize: none; 
+    box-shadow: none;
+    background: none;
 }
 
+.bodylink button{
+    background: rgb(212, 212, 212, 0.3);
+    height: 2rem;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.1rem;
+    margin-top: 1rem;
+}
+
+/* marginDiv */
+#marginDiv {
+    width: 100%;
+    height: 21rem;
+}
+
+/* footer */
 #footer_div {
     width: 100%;
     height: 20%;
-    margin-top: 40vh;
     display: grid;
 }
 
 .country {
     width: 100%;
-    height: 50%;
+    height: 3rem;
+    background-color: rgb(212, 212, 212, 0.3);
+    border-bottom: solid rgb(172, 171, 171, 0.5) 1px;
+    display: flex;
+}
+
+.country-Text {
+    margin-left: 3%;
+    margin-top: 0.9rem;
 }
 
 .foot-link {
     width: 100%;
-    height: 50%;
+    height: 3rem;
+    background-color: rgb(212, 212, 212, 0.3);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.foot-link-left {
+    margin-left: 17%;
+}
+
+.foot-link-right {
+    margin-right: 17%;
 }
