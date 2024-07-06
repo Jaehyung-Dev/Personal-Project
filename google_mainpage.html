@@ -14,60 +14,85 @@
 </head>
 <body>
     <!--메인페이지의 헤더-->
-
     <header>
-        <nav>
-            <ul>
-                <li><a href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header">Google 정보</a></li>
-                <li><a href="https://store.google.com/KR/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ko&pli=1">스토어</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li class="right"><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-                <li class="right"><a href="https://www.google.com/imghp?hl=ko&ogbl">이미지</a></li>
-                <li class="right"><a href="https://labs.google.com/search?source=hp">3</a></li>
-                <li class="right"><a href="https://www.google.co.kr/intl/ko/about/products">4</a></li>
-                <li class="right"><a href="https://accounts.google.com/SignOutOptions?hl=ko&continue=https://www.google.com/&ec=GBRAmgQ">5</a></li>
-            </ul>
-        </nav>
+        <div id="header_div">
+            <div id="header_left">
+                <nav>
+                    <ul>
+                        <li><a href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header">Google 정보</a></li>
+                        <li><a href="https://store.google.com/KR/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ko&pli=1">스토어</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header_right">
+                <nav>
+                    <ul class="header_right_ul">
+                        <li>
+                            <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/imghp?hl=ko&ogbl">이미지</a>
+                        </li>
+                        <li>
+                            <a href="https://labs.google.com/search?source=hp">
+                                <img src="images/searchLab.png" alt="searchLabImg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.co.kr/intl/ko/about/products">
+                                <img src="images/googleApp.png" alt="googleAppImg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://accounts.google.com/SignOutOptions?hl=ko&continue=https://www.google.com/&ec=GBRAmgQ">
+                                <img src="images/Profile.png" alt="profileImg">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <body>
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="구글 로고">
+    <main>
+        <div id="main_div">
+            <div class="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="구글 로고">
+            </div>
+            <div class="searchbox">
+                <img src="" alt="돋보기이미지">
+                <input type="text">
+                <input class="" value="입력도구">
+                <input class="" value="음성검색">
+                <input class="" value="이미지로 검색">
+            </div>
+            <div class="bodylink">
+                <input class="" value="Google 검색">
+                <input class="" value="I'm Feeling Lucky">
+            </div>
         </div>
-        <div class="searchbox">
-            <img src="" alt="돋보기이미지">
-            <input type="text">
-            <input class="" value="입력도구">
-            <input class="" value="음성검색">
-            <input class="" value="이미지로 검색">
-        </div>
-        <div class="bodylink">
-            <input class="" value="Google 검색">
-            <input class="" value="I'm Feeling Lucky">
-        </div>
-    </body>
+    </main>
 
     <footer>
-        <div class="country">
-            <span>대한민국</span>
-        </div>
-        <div class="foot-link">
-            <div class="foot-link-left">
-                <ul>
-                    <li><a href="#">광고</a></li>
-                    <li><a href="#">비즈니스</a></li>
-                    <li><a href="#">검색의 원리</a></li>
-                </ul>
+        <div id="footer_div">
+            <div class="country">
+                <span>대한민국</span>
             </div>
-            <div class="foot-link-right">
-                <ul>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">약관</a></li>
-                    <li><a href="#">설정</a></li>
-                </ul>
+            <div class="foot-link">
+                <div class="foot-link-left">
+                    <ul>
+                        <li><a href="#">광고</a></li>
+                        <li><a href="#">비즈니스</a></li>
+                        <li><a href="#">검색의 원리</a></li>
+                    </ul>
+                </div>
+                <div class="foot-link-right">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">약관</a></li>
+                        <li><a href="#">설정</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>  
