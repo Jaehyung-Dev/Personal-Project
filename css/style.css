@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin-top: 0.5vh;
 }
 
 li {
@@ -61,40 +62,60 @@ a:hover {
     align-items: center;
 }
 
-
 .searchbox {
-    width: 100%;
+    width: 30%;
     height: 3rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(212, 212, 212, 0.5);
+    border-radius: 3rem;
+    box-shadow: 2px 2px 5px rgb(212, 212, 212, 0.5);
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-#searchbox-text{
+.searchbox:hover {
+    border: solid 1px rgb(212, 212, 212, 1);
+    box-shadow: 3px 3px 5px rgb(212, 212, 212, 1);
+}
+
+#searchbox-text {
     padding: 0;
     margin: 0;
-    border: solid 1px black;
+    border: none;
     outline: none;
     resize: none; 
     box-shadow: none;
     background: none;
+    width: 20vw;
+}
+
+.searchbox-content {
+    margin: 1vh;
 }
 
 .bodylink button{
-    background: rgb(212, 212, 212, 0.3);
+    background: rgb(212, 212, 212, 0.1);
     height: 2rem;
     padding: 0;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: 0.1rem;
     margin-top: 1rem;
+    font-size: 0.8rem;
+    border: 1px solid rgb(212, 212, 212, 0);
+    border-radius: 5px;
+}
+
+.bodylink button:hover {
+    border: 1px solid rgb(212, 212, 212, 5);; 
 }
 
 /* marginDiv */
 #marginDiv {
     width: 100%;
-    height: 21rem;
+    height: 21.3rem;
 }
 
 /* footer */
@@ -113,7 +134,7 @@ a:hover {
 }
 
 .country-Text {
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 0.9rem;
 }
 
@@ -127,9 +148,9 @@ a:hover {
 }
 
 .foot-link-left {
-    margin-left: 17%;
+    margin-left: 2%;
 }
 
 .foot-link-right {
-    margin-right: 17%;
+    margin-right: 2%;
 }
